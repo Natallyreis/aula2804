@@ -34,6 +34,8 @@ public class CalculadoraSimples1{
         
 
     }
+    //Entrada
+    System.out.print
 
     
 }
