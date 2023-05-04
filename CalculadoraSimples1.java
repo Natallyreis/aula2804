@@ -22,8 +22,6 @@ public class CalculadoraSimples1{
                
             if(op == 1){
                 System.out.println("\n\t\t\t -- Soma --\n");
-            }else if (op == 1){
-                
                 //Entrada
                 System.out.println("Informe N1: ");
                 n1 = entrada.nextInt();
@@ -32,6 +30,19 @@ public class CalculadoraSimples1{
 
                 //Processamento
                 total = n1 + n2;
+
+                //Saida
+                System.out.printf("%d + %d = %d", n1, n2, total);
+            }else if (op == 2){
+                
+                //Entrada
+                System.out.println("Informe N1: ");
+                n1 = entrada.nextInt();
+                System.out.println("Informe N2: ");
+                n2 = entrada.nextInt();
+
+                //Processamento
+                total = n1 - n2;
 
                 //Saida
                 System.out.printf("%d + %d = %d", n1, n2, total);
